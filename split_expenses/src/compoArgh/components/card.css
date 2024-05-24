@@ -1,0 +1,92 @@
+
+.main1{
+  width: 100%; 
+  height: auto; 
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+  align-items: center; 
+  justify-content: center; 
+  align-content: center; 
+  padding: 20px; 
+  background-color: transparent;
+  color: white;
+}
+
+.main1 h1{
+  color: white;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  width: 500px;
+  margin-block: 10px; 
+  background-color: #e7e7e7; 
+  color: rgb(0, 0, 0); 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  text-align: center; 
+  font-weight: 800;
+  font-size:larger;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px){
+  .card{
+    width: 250px;
+  }
+  .title{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 560px){
+  .card{
+    width: 230px;
+  }
+  .title{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .card{
+    width: 220px;
+  }
+  .title{
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .card{
+    width: 200px;
+  }
+  .title{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 390px){
+  .card{
+    width: 160px;
+  }
+  .title{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 340px){
+  .card{
+    width: 150px;
+  }
+  .title{
+    font-size: 13px;
+  }
+}

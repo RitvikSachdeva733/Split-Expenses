@@ -1,0 +1,45 @@
+{
+  "userdb": [
+    {
+      "username": "Arghadeep",
+      "personalMoney": 200,
+      "debts": [
+        { "person": "Sweta", "amount": 50 },
+        { "person": "Ram", "amount": -60 },
+        { "person": "Raghav", "amount": 30 }
+      ]
+    },
+    {
+      "username": "Ritika",
+      "personalMoney": 100,
+      "debts": [
+        { "person": "Sonia", "amount": 30 },
+        { "person": "Manish", "amount": -20 }
+      ]
+    },
+    {
+      "username": "Ritvik",
+      "personalMoney": 250,
+      "debts": [
+        { "person": "Elina", "amount": 60 },
+        { "person": "Kiran", "amount": -15 }
+      ]
+    },
+    {
+      "username": "Ananya",
+      "personalMoney": 180,
+      "debts": [
+        { "person": "Dev", "amount": -50 },
+        { "person": "Lakshmi", "amount": 40 }
+      ]
+    },
+    {
+      "username": "Anuj",
+      "personalMoney": 300,
+      "debts": [
+        { "person": "Rishi", "amount": 75 },
+        { "person": "Naina", "amount": -30 }
+      ]
+    }
+  ]
+}

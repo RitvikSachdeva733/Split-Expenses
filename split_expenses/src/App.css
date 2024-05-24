@@ -1,0 +1,174 @@
+body{
+ 
+  color: rgb(255, 255, 255);
+  padding-top: 15px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  z-index: 100;
+}
+
+.outer-box {
+  border: 2px solid #606060;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: linear-gradient(to right, rgb(0, 0, 0), #010d55);
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(70px);
+  box-shadow: 0 0 10px rgba(31, 32, 33, 0.2);
+  overflow: scroll;
+}
+
+.outer-box::-webkit-scrollbar {
+	width: 0;
+}
+  
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+}
+
+.container > div {
+  flex: 1;
+  flex-basis: 50%;
+}
+
+.container h1 {
+  margin-left: 245px;
+}
+
+form > div {
+  margin: 10px 0px;
+}
+
+form label {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.first{
+  padding: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-width: 430px;
+  margin: auto;
+  background-color: transparent; 
+}
+
+.second{
+  padding: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-width: 450px;
+  margin: auto;
+  background-color: transparent; 
+}
+
+.third{
+  padding: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-width: 450px;
+  margin: auto;
+  background-color: transparent; 
+  margin-bottom: 40px;
+}
+
+.btn {
+    width: 85%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+
+ul {
+  list-style:none;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+li{
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+li:hover{
+  color: rgb(205, 217, 255);
+  cursor: pointer;
+}
+
+
+select {
+  font-size: 16px;
+  padding: 8px;
+  width: 75%;
+  
+}
+
+.select{
+  width: 50%;
+  background: transparent;
+  outline: none;
+  border: 2px solid rgb(195, 195, 195);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.option{
+  color: black;
+}
+label.select-label {
+  font-size: 20px;
+}
+
+
+h2.bill-heading {
+  font-size: 20px;
+}
+
+
+label.bill-label {
+  font-size: 20px;
+}
+
+.bill-input{
+    width: 50%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(195, 195, 195);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+button {
+  padding: 8px 16px;
+  background-color: #27374D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #1a294000;
+}
